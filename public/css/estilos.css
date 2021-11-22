@@ -1,5 +1,5 @@
 .carousel-item {
-    height: 500px;
+    height: 750px;
 }
 
 .carousel-item img {
@@ -10,4 +10,17 @@
 
 .color-fondo {
     background-color: black;
+}
+
+.carousel-caption {
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.lead {
+    color: black;
+}
+
+.texto {
+    margin-top: 15px;
 }
