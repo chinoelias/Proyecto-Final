@@ -14,7 +14,7 @@
 
 .carousel-caption {
     color: black;
-    font-family: 'Bebas Neue', cursive;
+    font-family: sans-serif;
 }
 
 .lead {
@@ -22,7 +22,9 @@
 }
 
 .texto {
-    margin-top: 15px;
+    font-family: sans-serif;
+    margin-top: 5px;
+    font-style: normal;
 }
 
 .separacion_cards {
