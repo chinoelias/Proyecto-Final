@@ -5,6 +5,14 @@ body {
     font-weight: 600;
 }
 
+.navbar {
+    background-color: olivedrab;
+}
+
+.conocenos {
+    background-color: rgba(200, 240, 200, 0.4);
+}
+
 .carousel-item {
     height: 500px;
 }
@@ -52,8 +60,13 @@ body {
     margin-top: 32px;
 }
 
+.productos {
+    background-color: rgba(122, 235, 70, 0.40);
+}
+
 .card {
     border-radius: 15px;
+    text-align: justify;
 }
 
 .iframe {
@@ -62,12 +75,20 @@ body {
     border-radius: 15px;
 }
 
+.recomendaciones {
+    background-color: rgba(200, 240, 200, 0.4);
+}
+
 video {
     width: 100%;
     height: 600px;
     object-fit: cover;
     margin-bottom: 10%;
     border-radius: 15px;
+}
+
+.formulario {
+    background-color: olivedrab;
 }
 
 .iconos_redes {

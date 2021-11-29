@@ -12,8 +12,8 @@
 
 <body>
 
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <header class="navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark ">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#inicio">Tu Rincocito Verde</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,12 +47,10 @@
 
     </header>
     <main>
-        <section>
-            <h2>Conocenos</h2>
+        <section class="conocenos">
+
 
             <div class="container">
-
-
                 <div class="row">
                     <div class="col-12 col-md 4">
                         <p class="texto">Tu Rincoito Verde: Es un emprendimiento que surgió con la intención de llegar a cada hogar, ayudando a crear un espacio para la naturaleza y darle más vida a cada rincocito. Conformado por un equipo familiar que surge de nuestra
@@ -96,11 +94,11 @@
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
-            </button>
+                         </button>
                             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
-            </button>
+                                 </button>
                         </div>
                     </div>
 
@@ -110,7 +108,7 @@
         </section>
 
 
-        <section>
+        <section class="productos">
             <h2 id="Productos">Productos </h2>
             <div class="container">
 
@@ -218,7 +216,7 @@
 
         </section>
 
-        <section>
+        <section class="recomendaciones">
             <h2 id="Recomendaciones">Recomendaciones</h2>
             <div class="container texto video">
 
@@ -231,6 +229,42 @@
                     </div>
                     <div class="col-12 col-md 6">
                         <video src="./public/Videos/VID_240350729_115531_913.mp4" controls></video>
+                    </div>
+                </div>
+        </section>
+
+        <section class="formulario">
+
+            <div class="container texto">
+                <h2>Formulario de contacto</h2>
+                <div class="row">
+                    <div class="col-12 col-md 6">
+
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre@correo.com">
+                            </div>
+                            <div class="mb-3">
+                                <select class="form-select" aria-label="Default select example">
+                            <option selected>Seleccione su comentario</option>
+                            <option value="1">Consultas</option>
+                            <option value="2">Quejas</option>
+                            <option value="3">Compras</option>
+                            <option value="3">Sugerencias</option>
+                          </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+
+                    </div>
+                    <div class="col-12 col-md 6">
+                        <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199222.69753532365!2d-62.39645670692251!3d-38.72114597412733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbcabdc1302bd%3A0x76d1d88d241e7a11!2sBah%C3%ADa%20Blanca%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1637636756220!5m2!1ses!2sar"
+                            width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
         </section>
