@@ -37,7 +37,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                            <a class="nav-link" href="#contacto">Contacto</a>
                         </li>
                     </ul>
 
@@ -47,14 +47,45 @@
 
     </header>
     <main>
+        <section class="Nosotros">
+            <div class="container">
+                <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./public/Imagenes/TuRincon-4.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./public/Imagenes/TuRincon-6.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./public/Imagenes/TuRincon-7.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+                </div>
+                <div>
+                    <p class="texto">Somos un emprendimiento que surgió con la intención de llegar a cada hogar, ayudando a crear un espacio para la naturaleza y darle más vida a cada rincocito. Conformado por un equipo familiar que surge de nuestra admiración por la
+                        naturaleza, las plantas y todo lo que viene asociado con ellas. </p>
+
+                </div>
+            </div>
+
+        </section>
+
         <section class="conocenos">
 
 
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md 4">
-                        <p class="texto">Tu Rincoito Verde: Es un emprendimiento que surgió con la intención de llegar a cada hogar, ayudando a crear un espacio para la naturaleza y darle más vida a cada rincocito. Conformado por un equipo familiar que surge de nuestra
-                            admiración por la naturaleza, las plantas y todo lo que viene asociado con ellas. </p>
+                    <div class="col-12 col-md 8">
+
                         <p class="texto">Que ofrecemos: En este sitio encontraras una enorme variedad de plantas de exterior e interior, arboles, artículos de decoración, macetas, accesorios, herramientas y todo lo que necesites para cuidar tu jardín, parque o balcón.
                             La calidad y diversidad de nuestras plantas y productos nos diferencia de los demás. </p>
                         <p class="texto">Cuidados: Extremamos los cuidados para que las plantas siempre esten fuertes y sanas para su nuevo hogar.</p>
@@ -62,7 +93,7 @@
                         <p class="texto">Servicios y Consultas: Siempre estamos a dispisicon para brindar cualquier ayuda, asi sea para una para un compra o post-venta.</p>
 
                     </div>
-                    <div class="col-12 col-md 4">
+                    <div class="col-12 col-md 8">
                         <div id="carouselExampleCaptions" class="carousel slide container" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -171,8 +202,7 @@
                             <img src="public/Imagenes/TuRincon-87.jpg" class="card-img-top" alt="Flores">
                             <div class="card-body">
                                 <h3>Kalonchoe ($700)</h3>
-                                <p class="card-text">El Kalanchoe es un género de plantas crasuláceas de aproximadamente 125 especies. Está formada por una gran familia de plantas que suelen usarse como decoración del hogar u oficina ya que requiere de pocos cuidados y es
-                                    fácil que sobreviva a cualquier ambiente.</p>
+                                <p class="card-text">El Kalanchoe es un género de plantas crasuláceas de aproximadamente 125 especies. Está formada por una gran familia de plantas que suelen usarse como decoración del hogar u oficina.</p>
                             </div>
                         </div>
 
@@ -238,7 +268,7 @@
         <section class="formulario">
 
             <div class="container texto">
-                <h2>Formulario de contacto</h2>
+                <h2 id="contacto">Formulario de contacto</h2>
                 <div class="row">
                     <div class="col-12 col-md 6">
 
@@ -273,9 +303,9 @@
 
     </main>
 
-    <footer class="py-3 my-4 footer">
+    <footer class="py-3 my-4">
 
-        <div class="container-fluid color-fondo">
+        <div class="container-fluid footer">
 
             <ul class="nav justify-content-center border-bottom">
                 <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-muted">Inicio</a></li>

@@ -13,18 +13,20 @@ body {
     background-color: rgba(200, 240, 200, 0.4);
 }
 
+.nosotros {
+    background-color: rgba(200, 240, 200, 0.4);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .carousel-item {
-    height: 500px;
+    height: 700px;
 }
 
 .carousel-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-
-.color-fondo {
-    background-color: black;
 }
 
 .carousel-caption {
@@ -47,6 +49,10 @@ body {
     align-items: center;
 }
 
+h2 {
+    text-align: center;
+}
+
 .texto_en_fotos {
     font-weight: 600;
 }
@@ -62,11 +68,15 @@ body {
 
 .productos {
     background-color: rgba(122, 235, 70, 0.40);
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .card {
     border-radius: 15px;
     text-align: justify;
+    min-height: 700px;
+    max-height: 700px;
 }
 
 .iframe {
@@ -77,6 +87,7 @@ body {
 
 .recomendaciones {
     background-color: rgba(200, 240, 200, 0.4);
+    padding-top: 10px;
 }
 
 video {
@@ -85,10 +96,6 @@ video {
     object-fit: cover;
     margin-bottom: 10%;
     border-radius: 15px;
-}
-
-.formulario {
-    background-color: olivedrab;
 }
 
 .iconos_redes {
@@ -129,4 +136,14 @@ video {
 
 .main {
     min-height: 100vh;
+}
+
+.formulario {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(200, 250, 120, 0.4);
+}
+
+.footer {
+    background-color: olivedrab;
 }
